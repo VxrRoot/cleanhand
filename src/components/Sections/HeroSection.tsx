@@ -7,9 +7,9 @@ const HeroSection = () => {
       style={{
         backgroundImage: `url('/herobg.jpg')`,
       }}
-      className="w-full h-full max-h-[calc(100vh-95px)] bg-cover bg-center flex items-center"
+      className="w-full h-full max-h-[calc(100vh-95px)] bg-cover bg-center flex items-center pt-[95px] overflow-hidden"
     >
-      <div className="w-full min-h-screen h-full flex flex-col justify-center">
+      <div className="w-full min-h-screen h-full relative overflow-hidden flex flex-col justify-center">
         <div className="z-10">
           <WidthManager>
             <div className="mx-auto max-w-4xl text-white -mt-20 z-20">
@@ -29,7 +29,7 @@ const HeroSection = () => {
             </div>
           </WidthManager>
         </div>
-        <div className="opacity-70 bg-black w-full absolute h-full max-h-[calc(100vh-95px)] " />
+        <div className="opacity-70 bg-black w-full absolute h-full  " />
       </div>
     </section>
   );

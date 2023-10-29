@@ -35,7 +35,7 @@ const Nav: FC = () => {
       <div
         onClick={() => setIsOpen((prev) => !prev)}
         className={`lg:hidden hover:cursor-pointer  ${
-          isOpen ? "z-50 fixed top-12 right-4" : "space-y-2 absolute"
+          isOpen ? "z-50 fixed top-16 right-4" : "space-y-2 absolute"
         } right-2 w-6 h-6`}
       >
         <span

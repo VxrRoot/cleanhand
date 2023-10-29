@@ -7,7 +7,9 @@ interface IHeadline {
 
 const SectionHeadline: FC<IHeadline> = ({ text, style }) => {
   return (
-    <h2 className={`text-3xl ${style} lg:text-5xl text-center`}>{text}</h2>
+    <h2 className={`text-4xl font-bold ${style} lg:text-5xl text-center`}>
+      {text}
+    </h2>
   );
 };
 

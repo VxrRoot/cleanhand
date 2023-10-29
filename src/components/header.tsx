@@ -13,7 +13,7 @@ const Header = () => {
           <div className="flex justify-center items-center lg:justify-end gap-6 h-full">
             <p>
               <a
-                href="tel:+48535919939"
+                href="tel:+48123123123"
                 className="text-black flex gap-2 items-center"
               >
                 <BsFillTelephoneFill /> <span> +48 123 456 789</span>
