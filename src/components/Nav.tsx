@@ -4,7 +4,7 @@ import { FC, useState } from "react";
 
 const links = [
   { name: "Usługi", href: "/uslugi" },
-  { name: "Realizacjie", href: "/realizacje" },
+  { name: "Realizacje", href: "/realizacje" },
   { name: "O nas", href: "/o-nas" },
   { name: "Kontakt", href: "/kontakt" },
 ];
@@ -34,8 +34,8 @@ const Nav: FC = () => {
       </div>
       <div
         onClick={() => setIsOpen((prev) => !prev)}
-        className={`lg:hidden hover:cursor-pointer absolute ${
-          isOpen ? "z-50 top-0" : "space-y-2"
+        className={`lg:hidden hover:cursor-pointer  ${
+          isOpen ? "z-50 fixed top-12 right-4" : "space-y-2 absolute"
         } right-2 w-6 h-6`}
       >
         <span

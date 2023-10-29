@@ -31,7 +31,7 @@ const NumbersSection = () => {
               className="flex items-center justify-center flex-col"
             >
               <p className="font-bold text-4xl">{item.number}</p>
-              <p className="text-2xl">{item.text}</p>
+              <p className="text-2xl whitespace-nowrap">{item.text}</p>
             </div>
           ))}
         </div>

@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        workflow: "0 15px 40px -15px #008080",
+        workflowHover: "0 15px 40px -15px #f8f32b",
+      },
       colors: {
         gray: "#333333",
         teal: "#008080",
