@@ -7,7 +7,7 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header className="h-[76px] lg:h-24 bg-white flex flex-col z-50">
+    <header className=" h-24 bg-white flex flex-col z-50">
       <div className="flex-grow">
         <WidthManager>
           <div className="flex justify-center items-center lg:justify-end gap-6 h-full">
