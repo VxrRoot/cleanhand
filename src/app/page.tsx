@@ -1,8 +1,7 @@
 import HeroSection from "@/components/Sections/HeroSection";
 import NumbersSection from "@/components/Sections/NumbersSection";
+import RealizationsSection from "@/components/Sections/RealizationsSection";
 import WorkflowSection from "@/components/Sections/WorkflowSection";
-import WidthManager from "@/components/WidthManager";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <NumbersSection />
       <WorkflowSection />
+      <RealizationsSection />
     </main>
   );
 }
