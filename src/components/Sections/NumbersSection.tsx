@@ -22,7 +22,7 @@ const numbers = [
 
 const NumbersSection = () => {
   return (
-    <section className="bg-azure p-10 lg:h-72 w-full">
+    <section className="bg-teal p-10 lg:h-72 w-full">
       <WidthManager>
         <div className="flex flex-col  lg:flex-row w-full h-full lg:justify-between gap-16">
           {numbers.map((item: { number: string; text: string }, idx) => (
@@ -30,8 +30,10 @@ const NumbersSection = () => {
               key={idx}
               className="flex items-center justify-center flex-col"
             >
-              <p className="font-bold text-4xl">{item.number}</p>
-              <p className="text-2xl whitespace-nowrap">{item.text}</p>
+              <p className="font-bold text-white text-4xl">{item.number}</p>
+              <p className="text-2xl text-white whitespace-nowrap">
+                {item.text}
+              </p>
             </div>
           ))}
         </div>

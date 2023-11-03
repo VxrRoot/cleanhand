@@ -11,6 +11,7 @@ const config: Config = {
       boxShadow: {
         workflow: "0 15px 40px -15px #008080",
         workflowHover: "0 15px 40px -15px #f8f32b",
+        servicesHover: "0 15px 30px -10px #008080",
       },
       colors: {
         gray: "#333333",
@@ -24,6 +25,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         // "hero-img": "url('../public/herobg.jpg')",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        carousel: "marquee 60s linear infinite",
       },
     },
   },

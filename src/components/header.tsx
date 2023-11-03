@@ -35,7 +35,7 @@ const Header = () => {
           <div className="grid grid-rows-1 grid-cols-3 items-center h-full">
             <div className="h-10 w-24 bg-teal justify-self-start" />
             <div className="justify-self-center lg:justify-self-end lg:order-3">
-              <BookButton />
+              <BookButton text="Rezerwuj sprzątanie" />
             </div>
             <Nav />
           </div>
