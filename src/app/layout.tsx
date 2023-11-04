@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Inter, Lato } from "next/font/google";
 import "./globals.css";
 
-const inter = Lato({ weight: ["400"], subsets: [] });
+const inter = Lato({ weight: ["400", "700"], subsets: [] });
 
 export const metadata: Metadata = {
   title: "Clean Hand - my sprzątamy ty odpoczywasz",
