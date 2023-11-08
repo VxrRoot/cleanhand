@@ -1,8 +1,15 @@
-import { MdIron } from "react-icons/md";
+export interface IService {
+  id: number;
+  slug: string;
+  title: string;
+  price: string;
+  services: string[];
+}
 
-export const services = [
+export const services: IService[] = [
   {
     id: 1,
+    slug: "pomoc-domowa",
     title: "Pomoc domowa + pranie + prasowanie",
     price: "100",
     services: [
@@ -20,17 +27,17 @@ export const services = [
       "Wyrzucanie śmieci",
       "Inne obowiązki domowe w miarę potrzeb",
     ],
-    icon: MdIron,
   },
   {
     id: 2,
     title: "Odświeżenie mieszkania compact",
+    slug: "odswiezenie-compact",
     price: "100",
     services: ["Czyszczenie podłóg", "Odkurzanie i mycie", "Mycie podłóg"],
-    icon: MdIron,
   },
   {
     id: 3,
+    slug: "biura-i-zaklady",
     title: "Sprzątanie biur i zakładów usługowych",
     price: "100",
     services: [
@@ -38,10 +45,10 @@ export const services = [
       "Odkurzanie i mycie",
       "Czyszczenie wyposażenia biura i powierzchni",
     ],
-    icon: MdIron,
   },
   {
     id: 4,
+    slug: "mieszkania-na-doby-airbnb-booking",
     title: "Mieszkania na doby Airbnb, Booking",
     price: "100",
     services: [
@@ -49,6 +56,5 @@ export const services = [
       "Zmiana pościeli i zaścielanie łóżek",
       "Wymiana ręczników",
     ],
-    icon: MdIron,
   },
 ];
